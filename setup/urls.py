@@ -6,7 +6,7 @@ from celula.views import usuarios
 urlpatterns = [
 
     path('cftdc/', include('cftdc.urls')),
-    # path('celula/', include('celula.urls')),
+    path('celula/', include('celula.urls')),
     path('admin/', admin.site.urls),
 
 ]

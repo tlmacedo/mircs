@@ -44,8 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'setup',
     'celula.apps.CelulaConfig',
-    "cftdc.apps.CftdcConfig"
+    'cftdc.apps.CftdcConfig',
+    "membro.apps.MembroConfig"
 ]
 
 MIDDLEWARE = [

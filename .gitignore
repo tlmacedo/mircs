@@ -161,3 +161,6 @@ cython_debug/
 #.idea/
 
 /secrets.json
+!/cftdc/migrations/
+!/membro/migrations/
+!/celula/migrations/
